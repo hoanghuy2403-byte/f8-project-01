@@ -175,10 +175,22 @@ a {
 }
 
 .clients .client-img {
-    margin-top: 9.65rem;
+    margin-top: 70px;
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+
+.clients .client-img a {
+    display: flex;
+    align-items: center;
+    height: 90px;
+    padding: 0 42px;
+    border-radius: 12px;
+}
+
+.clients .client-img a:hover {
+    box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.1);
 }
 
 /* ===== Guides ====== */
